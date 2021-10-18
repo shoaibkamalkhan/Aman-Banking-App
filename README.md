@@ -1,2 +1,2 @@
-#Banking-App
+# Banking-App
 Design for banking app
