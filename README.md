@@ -1,2 +1,2 @@
-# Aman-Banking-App
-Design for Aman's banking app
+Banking-App
+Design for banking app
