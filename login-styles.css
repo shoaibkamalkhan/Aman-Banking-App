@@ -27,15 +27,20 @@ header {
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 1rem;
+}
+
+.backward-arrow {
+    align-items: flex-start;
+    margin-right: auto;
 }
 
 .hd-text {
     text-align: center;
     color: white;
     font-weight: bold;
-    margin: 0px;
+    margin-right: auto;
 }
 
 /* Banner Styles */
@@ -50,36 +55,4 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* Form Styles */
-
-.ct-lgn-form {
-    max-width: 320px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    text-align: center;
-}
-
-input {
-    display: block;
-    padding: 1rem 1rem;
-    margin: 1rem 0;
-    width: 100%;
-    color: gray;
-    border: 1px solid gray;
-    outline: none;
-    
-}
-
-button {
-    width: 100%;
-    height: 60px;
-    background-color: #2699FB;
-    border: none;
-    color: white;
-}
-
-.terms-of-service {
-    margin: 2rem 0;
 }
