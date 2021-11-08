@@ -12,6 +12,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Container Styles */
 
 .container {
@@ -83,3 +88,32 @@ button {
 .terms-of-service {
     margin: 2rem 0;
 }
+
+/* Login Styles */
+
+.login-hd {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.backward-arrow {
+    justify-content: flex-start;
+}
+
+.login-hd-text {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.btn-login {
+    margin-top: 2rem;
+}
+
