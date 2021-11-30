@@ -78,7 +78,8 @@ input {
 }
 
 button {
-    width: 100%;
+    margin: .5rem;
+    width: 160px;
     height: 60px;
     background-color: #2699FB;
     border: none;
@@ -89,4 +90,8 @@ button {
     margin: 2rem 0;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+}
 
