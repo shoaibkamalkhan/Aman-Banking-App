@@ -1,6 +1,8 @@
 /* Variables */
 
 const hamburger = document.querySelector('.icon');
+const menu = document.getElementById("myLinks");
+const mobileNav = document.querySelector('.mobile-nav');
 
 /* Mobile Navigation Event Listeners */
 

@@ -32,7 +32,7 @@ header {
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     padding: 1rem;
 }
 
@@ -40,7 +40,44 @@ header {
     text-align: center;
     color: white;
     font-weight: bold;
-    margin: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 1.35rem;
+}
+
+/* Hamburger Menu Styles */
+
+.hamburger-menu {
+    
+}
+
+.icon {
+    font-size: 1.35rem;
+}
+
+.mobile-nav {
+    background-color: #333333;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#myLinks {
+    display: none;
+}
+
+ul#myLinks  {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-left: 0px;
+}
+
+#myLinks li {
+    list-style: none;
+    margin: 20px;
 }
 
 /* Banner Styles */
@@ -94,4 +131,6 @@ button {
     display: flex;
     justify-content: center;
 }
+
+
 
