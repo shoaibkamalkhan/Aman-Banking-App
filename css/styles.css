@@ -133,4 +133,19 @@ button {
 }
 
 
+/* Media Queries */
 
+
+@media only screen and (min-width: 768px) {
+
+    .mobile-nav {
+        background-color: #333333;
+        position: relative;
+        text-align: center;
+        top: 71px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+    }
+
+}
