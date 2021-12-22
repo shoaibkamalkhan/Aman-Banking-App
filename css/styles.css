@@ -32,7 +32,7 @@ header {
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 1rem;
 }
 
@@ -40,15 +40,15 @@ header {
     text-align: center;
     color: white;
     font-weight: bold;
-    margin-right: auto;
+    /* margin-right: auto;
     margin-left: auto;
-    padding-left: 1.35rem;
+    padding-left: 1.35rem; */
 }
 
 /* Hamburger Menu Styles */
 
 .hamburger-menu {
-    
+    display: flex;
 }
 
 .icon {
@@ -56,6 +56,7 @@ header {
 }
 
 .mobile-nav {
+
     background-color: #333333;
     position: absolute;
     text-align: center;
@@ -139,13 +140,27 @@ button {
 @media only screen and (min-width: 768px) {
 
     .mobile-nav {
-        background-color: #333333;
+        background-color: transparent;
         position: relative;
         text-align: center;
-        top: 71px;
+        top: 0px;
         left: 0;
         right: 0;
         z-index: 1;
     }
+    ul#myLinks{
+        display: flex !important;
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+    }
+    #myLinks li {
+        list-style: none;
+        margin: 0;
+    }
+    .icon{
+        display: none;
+    }
+    
 
 }
