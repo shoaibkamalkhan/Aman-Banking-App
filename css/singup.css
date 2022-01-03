@@ -1,8 +1,17 @@
+/* Form Styles */
+
+.ct-lgn-form {
+    margin-bottom: 2rem;
+}
+
+.terms-of-service {
+    margin: 1.5rem 0rem;
+}
+
 /* Button Styles */
 
-.btn-login {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.btn-continue {
+    margin: 0rem;
 }
 
 /* Border Styles */
@@ -22,5 +31,5 @@
  
  .border p a {
     color: #2699FB;
-}   
+}
 

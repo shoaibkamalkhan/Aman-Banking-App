@@ -98,8 +98,8 @@ ul#myLinks  {
 
 .ct-lgn-form {
     max-width: 320px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    margin: 2rem;
+    margin-bottom: 0rem;
     text-align: center;
 }
 
@@ -121,10 +121,6 @@ button {
     background-color: #2699FB;
     border: none;
     color: white;
-}
-
-.terms-of-service {
-    margin: 2rem 0;
 }
 
 .buttons {
