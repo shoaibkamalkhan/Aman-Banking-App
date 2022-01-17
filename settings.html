@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/settings.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -24,6 +25,20 @@
                     <i class="fa fa-bars"></i>
                 </a>
         </header>
+        <div class="tab">
+            <button class="tablinks" onclick="openTabs(event, 'Profile')">Profile</button>
+            <button class="tablinks" onclick="openTabs(event, 'Account')">Account</button>
+        </div>
+          
+        <div id="Profile" class="tabcontent">
+            <h3>Profile</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+        </div>
+          
+        <div id="Account" class="tabcontent">
+            <h3>Account</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna molestie at elementum eu facilisis sed odio morbi quis.</p>
+        </div>
     </div>
     <script src="js/scripts.js"></script>
 </body>
